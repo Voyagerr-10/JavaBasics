@@ -5,18 +5,21 @@
 
 class PrintPatterns {
     public static void main(String[] args) {
+
         System.out.println("Pattern 1: Right Half Pyramid");
         System.out.println("*");
         System.out.println("* *");
         System.out.println("* * *");
         System.out.println("* * * *");
         System.out.println("* * * * *");
+
         System.out.println("Pattern 2: Reverse Right Half Pyramid");
         System.out.println("* * * * *");
         System.out.println("* * * *");
         System.out.println("* * *");
         System.out.println("* *");
         System.out.println("*");
+
         System.out.println("Pattern 3: Left Half Pyramid");
         System.out.println("* * * * *");
         System.out.println("  * * * *");

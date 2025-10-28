@@ -5,10 +5,13 @@ import java.util.Scanner;
 class Swap {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         System.out.print("Enter First Number: ");
         int a = sc.nextInt();
+
         System.out.print("Enter Second Number: ");
         int b = sc.nextInt();
+
         System.out.println("a = " + a + "\nb = " + b);
 
         //Swapping
@@ -16,6 +19,7 @@ class Swap {
         int temp = a; a = b; b = temp;
 
         System.out.println("a = " + a + "\nb = " + b);
+
         sc.close();
     }
 }

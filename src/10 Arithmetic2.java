@@ -5,8 +5,10 @@ import java.util.Scanner;
 class Arithmetic2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         System.out.print("Enter First Number: ");
         int a = sc.nextInt();
+
         System.out.print("Enter Second Number: ");
         int b = sc.nextInt();
 
@@ -15,6 +17,7 @@ class Arithmetic2 {
         System.out.println("Product    : " + a + " * " +  b + " = " + (a*b));
         System.out.println("Quotient   : " + a + " / " +  b + " = " + (a/b));
         System.out.println("Remainder  : " + a + " % " +  b + " = " + (a%b));
+
         sc.close();
     }
 }

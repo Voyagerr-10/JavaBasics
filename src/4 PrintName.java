@@ -8,6 +8,7 @@ class PrintName {
         Scanner sc = new Scanner(System.in);
         System.out.print("Hey! What's your good name? : ");
         String name = sc.nextLine();
+
         System.out.println("Good Evening, " + name + "! How's it going?");
         sc.close();
     }
