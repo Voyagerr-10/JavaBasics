@@ -73,7 +73,7 @@ The goal of this repository is to maintain a structured, beginner-friendly colle
 1. Clone the repository
 
    ```bash
-   git clone <your-repo-link>
+   git clone https://github.com/Voyagerr-10/JavaBasics
    ```
 2. Open any `.java` file in your editor.
 3. Compile & run:
