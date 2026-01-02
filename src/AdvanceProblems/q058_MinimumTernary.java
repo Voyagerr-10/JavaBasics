@@ -1,8 +1,10 @@
+// 58: Create a program to find the minimum of two numbers using ternary operator.
+
 package AdvanceProblems;
 
 import java.util.Scanner;
 
-public class q058_Minimum {
+public class q058_MinimumTernary {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("-----Minimum Finder-----");
